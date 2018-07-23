@@ -1,0 +1,13 @@
+$deepBronze: #543005;
+$rusty-nail: #8c510a;
+$marigold: #bf812d;
+$harvest-gold: #dfc27d;
+$sidecar: #f6e8c3;
+$wild-sand: #f5f5f5;
+$jagged-ice: #c7eae5;
+$monte-carlo: #80cdc1;
+$lochinvar: #35978f;
+$blue-stone: #01665e;
+$deep-teal: #003c30;
+
+

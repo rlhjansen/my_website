@@ -1,0 +1,63 @@
+<partcontainer>
+    <div class="textpart">
+    <h1> Intro </h1>
+    <p>
+             Me and <a href="https://www.linkedin.com/in/yvinkesteijn">Yannick Vinkesteijn</a> are running a project concerning Very Large scale integration. 
+    </p>
+    <p>
+             Simplified, this comes down to the physical architecture of hardware computerchips, which are in ever need of improvement. 
+    </p>
+    <p>
+             Our VLSI model is a simplified version of computerchips consisting of a number of transistors, also known as logic-gates, located on the chip and a netlist containing all connections needed between the gates (the copper wiring).
+    </p>
+    </div>
+    <div class="img_part">
+        <figure class="centering"><img src="sample_vlsi.png" style="width:50%" /><figcaption> Example Computerchip </figcaption></figure>
+    </div>
+</partcontainer>
+
+
+<partcontainer>
+    <div class="textpart">
+        <h1> goal </h1>
+        <p>
+             In our model the chip itself consists of bottom/basic layer, on which the gates are placed. Multiple additional 2-dimensional grid-like layers are available for wiring. Routing can only be done over the x, y and z axis (hence the grid-like structure). To avoid short circuits it is mandatory for the nets (copper wires) not to cross.
+        </p>
+        <p>
+             The goal is to connect as many nets as possible and minimize the distance to increase the communication speed between the gates and minimize heat generation.
+        </p>
+    </div>
+    <div class="imgpart">
+        <figure class="centering"><img src="False.png" /><figcaption> crossing wires cause a short-circuit</figcaption></figure>
+        
+	<div class="slideshow-container">
+            <div class="mySlides centering fade s1">
+                <div class="numbertext">1 / 3</div>
+                <img class="centering" src="False.png" alt="1.1">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides centering fade s1">
+                 <div class="numbertext">2 / 3</div>
+                 <img class="centering" src="false_1a.png" alt="1.2">
+                 <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides centering fade s1">
+                 <div class="numbertext">3 / 3</div>
+                 <img class="centering" src="false_2.png" alt="1.3">
+                 <div class="text">Caption Three</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+        <span class="dot d1" onclick="currentSlide(1, 1)"></span> 
+        <span class="dot d1" onclick="currentSlide(2, 1)"></span> 
+        <span class="dot d1" onclick="currentSlide(3, 1)"></span> 
+        </div>
+    </div>
+</partcontainer>
+
+

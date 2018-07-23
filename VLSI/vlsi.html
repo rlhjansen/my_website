@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../CSS/gridstyles.css">
+        <link rel="stylesheet" href="../CSS/slideshow.css">
+        <link rel="stylesheet" href="../CSS/partcontainer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../JS/include.js"></script>
+        <script src="../JS/slideshow.js"></script>
+    </head>
+    <body class="container" onload="showSlides(1, 1); showSlides(1, 2)">
+        <div class="subcontainer">
+        <nav w3-include-html="../general/header.html"></nav>
+        <main-content w3-include-html="vlsi-body.html"></main-content>
+
+        <footer w3-include-html="../general/footer.html"></footer>
+        <script>
+            includeHTML();
+        </script>
+        </div>
+    </body>
+</html>
